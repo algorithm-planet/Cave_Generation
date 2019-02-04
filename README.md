@@ -1,3 +1,5 @@
+# Cave_Generation
+
 #1 ......map_grid
 
 (flow)
@@ -7,6 +9,7 @@
   _region_
   Room_Connect
   new_map_grid
+  
 #2 ......square
 
 (flow)
@@ -14,8 +17,9 @@
   new_map_grid
   
   sq_top
-  # outline <int> , Verts <v3>
+  #outline <int> , Verts <v3>
   sq_wall
+  
 #3 ......Cave
 
 Generate_Cave()
