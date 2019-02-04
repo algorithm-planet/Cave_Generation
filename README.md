@@ -24,7 +24,7 @@
   <li>sq_wall</li>
   </ul>
   
-#3 ......Cave
+<h2>#3 ......Cave</h2>
 
 Generate_Cave()
 
