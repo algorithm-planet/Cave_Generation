@@ -1,7 +1,6 @@
 <h1>Cave_Generation</h1>
 
-
-#1 ......map_grid
+<h2>#1 ......map_grid</h2>
 
 (flow)
  
@@ -11,9 +10,9 @@
   <li>_region_</li>
   <li>Room_Connect</li>
   <li>new_map_grid</li>
-  </ul>
-  
-#2 ......square
+  </ul>  
+
+<h2>#2 ......square</h2>
 
 (flow)
 
