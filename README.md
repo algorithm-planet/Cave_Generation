@@ -4,25 +4,21 @@
 
 (flow)
  
-  <ul>
-  <li>map_grid</li>
+  map_grid<br/>
   <br/>
-  <li>_region_</li>
-  <li>Room_Connect</li>
-  <li>new_map_grid</li>
-  </ul>  
+  _region_<br/>
+  Room_Connect<br/>
+  new_map_grid
 
 <h3>#2 ......square</h3>
 
 (flow)
 
-  <ul>
-  <li>new_map_grid</li>
+  new_map_grid<br/>
   <br/>
-  <li>sq_top</li>
+  sq_top<br/>
   #outline <int> , Verts <v3>
-  <li>sq_wall</li>
-  </ul>
+  sq_wall
   
 <h3>#3 ......Cave</h3>
 
