@@ -1,6 +1,6 @@
-<h1>Cave_Generation</h1>
+# Cave_Generation
 
-<h3>#1 ......map_grid</h3>
+#1 ......map_grid
 
 (flow)
  
@@ -10,17 +10,17 @@
   Room_Connect<br/>
   new_map_grid
 
-<h3>#2 ......square</h3>
+#2 ......square
 
 (flow)
-
-  new_map_grid<br/>
-  <br/>
-  sq_top<br/>
+  
+  new_map_grid
+  sq_top
   #outline <int> , Verts <v3>
+  
   sq_wall
   
-<h3>#3 ......Cave</h3>
+>#3 ......Cave
 
 Generate_Cave()
 
