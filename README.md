@@ -28,3 +28,11 @@
 
 Generate_Cave()
 
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
