@@ -1,6 +1,6 @@
 <h1>Cave_Generation</h1>
 
-<h2>#1 ......map_grid</h2>
+<h3>#1 ......map_grid</h3>
 
 (flow)
  
@@ -12,7 +12,7 @@
   <li>new_map_grid</li>
   </ul>  
 
-<h2>#2 ......square</h2>
+<h3>#2 ......square</h3>
 
 (flow)
 
@@ -24,7 +24,7 @@
   <li>sq_wall</li>
   </ul>
   
-<h2>#3 ......Cave</h2>
+<h3>#3 ......Cave</h3>
 
 Generate_Cave()
 
