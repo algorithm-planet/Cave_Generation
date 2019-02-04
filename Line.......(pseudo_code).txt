@@ -1,0 +1,43 @@
+# Ortthogonal_line
+
+pseudo_code
+//
+p1 = start
+p2  = end
+
+dx = p1.x - p2.x
+dy = p1.y - p2.y
+
+dx_n , dy_n....dir_
+dx_m , dy_m....mag_
+
+m = dy_m/dx_m
+
+list<point> P_ = new list<point>()
+P_.add(start)
+
+#
+loop....
+//
+treat line as dx_m , dy_m  start_at p0
+  and next_p.......is calculated by
+    slope from start to  mid_lines    &&  m
+//
+
+x_i = 0  , y_i = 0   .............till  x_i < dx_m  or  y_i < dy_m
+
+    slope from start to  mid_lines = (y_i + 0.5f) / (x_i + 0.5f)
+    if(m  >  slope from start to  mid_lines)
+    // next_point is along x
+    p0.x += 1
+    x_i += 1
+
+    else
+    // next_point is along y
+      p0.y += 1
+      y_i += 1
+
+    point next_point  = new point(p0.x  , p0.y)
+    P_.add(next_point )
+#  
+//
