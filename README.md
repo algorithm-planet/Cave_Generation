@@ -23,6 +23,6 @@ sq_wall
    
 #3 ......Cave :
 
-<h3>Generate_Cave()</h3>
+[`Generate_Cave`](Cave.cs)
 
 ![Generate_Cave()](http://i.imgur.com/lCVKy13.jpg)
