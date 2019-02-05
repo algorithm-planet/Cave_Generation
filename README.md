@@ -21,5 +21,5 @@
   
 #3 ......Cave
 
-  [Generate_Cave()]!(https://imgur.com/lCVKy13)
+  [Generate_Cave()]!(https://i.imgur.com/lCVKy13.jpg)
 
