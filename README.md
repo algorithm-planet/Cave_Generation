@@ -20,6 +20,5 @@
   sq_wall
   
 #3 ......Cave
-
-  [Generate_Cave()]!(https://i.imgur.com/lCVKy13.jpg)
-
+  
+![Generate_Cave()r](http://i.imgur.com/lCVKy13.jpg)
