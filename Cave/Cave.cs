@@ -74,17 +74,6 @@ public class Cave : MonoBehaviour
 
         #endregion
        //
-        #region Line_test        
-        Coord a = new Coord(1 , 1);
-        Coord b = new Coord(u , v);
-        Orthogonal_steps Ortho_steps = new Orthogonal_steps(a, b);
-        string sum = "   ";
-        foreach (Coord c in Ortho_steps.Points)
-        {
-            sum += ("  :   " + c.X + "//" + c.Y).ToString();
-        }
-        Debug.Log(sum +  "//**..................." + Ortho_steps.Points.Count + "......................" + (Ortho_steps.Points[0]  == Ortho_steps.Points[Ortho_steps.Points.Count - 1]));
-        #endregion
     }
 
     void Generate_Mesh()
@@ -127,30 +116,7 @@ public class Cave : MonoBehaviour
         #endregion
     }
 
-    #region MyRegion_Gizmos
-    /*
-    [Range(0 , 10)]
-    public int U = 0;
-    //[Range(0, 100)]
-    public int V = 0;
-    [Range(1, 5)]
-    public int multiplier = 1;
-
-    public Vector2 a_;
-    public Vector2 b_;
-        */
-    private void OnDrawGizmos()
-    {
-        /*
-        if(OutLines != null)
-        {
-            Gizmos.color = Color.red;
-            //Gizmos.DrawSphere(Verts_[OutLines[U % OutLines.Count][V * multiplier % OutLines[U].Count]]  ,  0.2f);
-            //Gizmos.DrawSphere(wall_verts[Mathf.Abs(V) % wall_verts.Count], 0.3f);
-            Gizmos.DrawSphere(wall_verts[ wall_tri_index[Mathf.Abs(V) % wall_tri_index.Count]], 0.3f);
-        }
-        */
-    }
+   
     Vector3 position_(int x, int y)
     {
         Vector3 Center_ = new Vector3((map_width - 1) / 2f, 0f, (map_height - 1) / 2f);
